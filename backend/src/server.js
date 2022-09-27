@@ -60,7 +60,7 @@ app.get('/jogador/:id', async (req, res) => {
             return
         }
 
-        res.status(200).json(person)
+        res.status(200).json(jogador)
     } catch (error) {
         res.status(500).json({ erro: error })
     }

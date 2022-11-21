@@ -124,7 +124,7 @@ app.get('/', (req, res) => {
 
 mongoose
     .connect(
-        'mongodb+srv://felipe:felipe@cluster0.6u02xay.mongodb.net/test',
+        'mongodb+srv://',
     )
     .then(() => {
         console.log('Conectou ao banco!')
